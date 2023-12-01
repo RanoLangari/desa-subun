@@ -4,7 +4,7 @@
 <head>
    <meta charset="utf-8">
    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-   <title>Desa Karangtengah</title>
+   <title>Desa Subun</title>
    <link href="assets/img/favicon.ico" rel="icon">
 
    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,8 @@
    <header id="header" class="header fixed-top">
       <div class="container container-xl d-flex align-items-center justify-content-between">
          <a href="/index.html" class="logo align-items-center">
-            <img src="assets/img/desa-karangtengah-2.png" alt="">
+            <img src="assets/img/banner/logo_ttu" alt="">
+            <span style="font-size: small; color:#fff">DESA SUBUN, KEC. INSANA BARAT</span>
          </a>
          <!-- =======  Bagian Navigasi ======= -->
          <nav id="navbar" class="navbar">
@@ -60,13 +61,13 @@
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="overlay-image">
-                        <img src="assets/img/banner/Banner1..jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/banner/desa.jpeg" class="d-block w-100" alt="...">
                      </div>
                      <div class="container">
 
                         <div class="carousel-caption">
-                           <h1>DESA KARANG TENGAH</h1>
-                           <p>Kecamatan Cilongok, Kabupaten Banyumas, Provinsi Jawa Tengah, Indonesia</p>
+                           <h1>DESA SUBUN</h1>
+                           <p>Kecamatan Insana Barat, Kabupaten Timor Tengah Utara, Provinsi Nusa Tenggara Timur, Indonesia</p>
 
                         </div>
                      </div>
@@ -241,11 +242,10 @@ while ($row = mysqli_fetch_array($getData)) { ?>
             <div class="row gy-4">
                <div class="col-lg-3 col-md-12 footer-info">
                   <div class="logo d-flex align-items-center">
-                     <img src="./assets/img/desa-karangtengah-3.png" alt="">
+                     <img src="./assets/img/banner/logo_ttu.png" alt="">
                   </div>
                   <p><?= $row['deskripsi']; ?>
                   </p>
-                  <a href="./admin">[Administrator]</a>
                </div>
 
                <div class="col-lg-4 col-md-12 footer-links">
@@ -253,7 +253,7 @@ while ($row = mysqli_fetch_array($getData)) { ?>
                   <p>
                      <?= $row['alamat']; ?>
                      <strong>Phone </strong>: <a href="https://api.whatsapp.com/send/?phone=<?= $row['telepon']; ?>" target="_blank"><?= $row['telepon']; ?></a> <br>
-                     <strong>Email </strong>: karangtengahdesawisata@gmail.com<br>
+                     <strong>Email </strong>: desasubun@gmail.com<br>
                   </p>
                   <div class="social-links mt-3">
                      <a href="https://twitter.com/<?= $row['twitter']; ?>" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -273,7 +273,7 @@ while ($row = mysqli_fetch_array($getData)) { ?>
 
       <div class="container">
          <div class="copyright">
-            &copy; Copyright 2022 - <strong><span>Pemerintah Desa Karangtengah</span></strong>
+            &copy; Copyright 2022 - <strong><span>Pemerintah Desa Subun</span></strong>
          </div>
       </div>
    </footer><!-- End Footer --><?php } ?>

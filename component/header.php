@@ -2,7 +2,8 @@
    <header id="header" class="header fixed-top">
       <div class="container container-xl d-flex align-items-center justify-content-between">
          <a href="" class="logo align-items-center">
-            <img src="../assets/img/desa-karangtengah-2.png" alt="">
+         <img src="../assets/img/banner/logo_ttu.png" alt="">
+         <span style="font-size: small; color:#fff">DESA SUBUN, KEC. INSANA BARAT</span>
          </a>
          <!-- =======  Bagian Navigasi ======= -->
          <nav id="navbar" class="navbar">

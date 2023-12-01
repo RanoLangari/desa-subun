@@ -29,7 +29,7 @@
                <img src="../assets/img/sejarah/<?= $row['foto']; ?>" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
-               <h1 class="display-5 fw-bold mt-5 lh-1 mb-4">Sejarah Desa Karangtengah</h1>
+               <h1 class="display-5 fw-bold mt-5 lh-1 mb-4">Sejarah Desa Subun</h1>
                <p class="lead"><?= $row['deskripsi']; ?></p>
                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
 
